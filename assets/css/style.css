@@ -8,8 +8,8 @@ header {
   margin-bottom: 20px; 
   color: white;
   font-size: 50px; 
-  vertical-align: ; 
-  background-color: darkgray;
+  float: bottom;
+  background-color: black;
 }
 
 .panel-title {
@@ -30,7 +30,7 @@ button {
   width: 80%;
   color: white; 
   margin: 3px; 
-  background-color: darkgray;
+  background-color: black;
 }
 
 footer {
@@ -38,5 +38,5 @@ footer {
     height: 60px;
     padding: 20px;
     color: white;
-    background-color: darkgray;
+    background-color: black;
   }

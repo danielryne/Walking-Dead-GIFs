@@ -44,6 +44,7 @@ $(document).ready(function() { //loads html and css before start of program
 
     $(document).on("click", ".creategifs", function() {
 
+
         //checks to see if the new subject was last search, if so does nothing
     	if(query === $(this).data("subject")){
     		return;
@@ -54,6 +55,7 @@ $(document).ready(function() { //loads html and css before start of program
         	gifplaying = undefined;
             
         	$("#searchID").html(query);  //Prints the search sujbect at top of results section
+            $("#results").html("");
 
             //replaces spaces with + symbol for query syntax 
         	while (query.indexOf(" ")!=-1)
