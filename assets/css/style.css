@@ -1,0 +1,42 @@
+
+* {
+  text-align: center;
+}
+
+header {
+  width: 100%;
+  margin-bottom: 20px; 
+  color: white;
+  font-size: 50px; 
+  vertical-align: ; 
+  background-color: darkgray;
+}
+
+.panel-title {
+  font-size: 20px;
+  color: gray;
+  }
+
+.panel-body {
+  color: gray; 
+}
+
+.result {
+  margin: 5px; 
+  float: left;
+}
+
+button {
+  width: 80%;
+  color: white; 
+  margin: 3px; 
+  background-color: darkgray;
+}
+
+footer {
+    width: 100%;
+    height: 60px;
+    padding: 20px;
+    color: white;
+    background-color: darkgray;
+  }

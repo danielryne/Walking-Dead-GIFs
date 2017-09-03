@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>TWD GIFs</title>
+  <link rel="shortcut icon" href="./assets/images/favicon.png"/>
+
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="./assets/css/style.css"> 
+
+</head>
+
+<body>
+
+	<div class="col-md-12">
+		<div class="row">
+			<header class="header">
+		   		<img id="banner" src="./assets/images/banner.png">
+			</header>
+		</div>
+	</div>
+
+	<!-- Actual Body --> 
+	<div class="container">
+
+		<!--Search and Button Area --> 
+	    <div class="col-md-3">
+			<div class="panel panel-default">
+				<div class="panel-heading">
+				  <div class="panel-title">Search</div>
+				</div>
+
+				<div class="panel-body">
+
+					<form id="Form">
+						<input type="text" id="searchinput"><br><br>
+						<input id="addsearch" type="submit" value="Add Search">
+					</form>
+					<br>
+					<div id="buttons">Buttons go here</div>
+
+				</div>
+			</div>
+	    </div>
+
+		<!--Results Area--> 
+		<div class="col-md-9">
+			<div class="panel panel-default">
+				<div class="panel-heading">
+					<div class="panel-title" id="searchID">Results</div> 
+				</div>
+
+				<div class="panel-body">
+					<div id="results"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="col-md-12">
+		<div class="row">
+			<footer class="footer">
+		   		© Copyright 2017 Daniel Ryne Lucio
+			</footer>
+		</div>
+	</div>
+
+  <!-- jQuery CDN -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <!-- Bootstrap JavaScript CDN -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <!-- my JavaScript File  -->
+  <script type="text/javascript" src="./assets/javascript/game.js"></script>
+
+</body>
+
+</html>
